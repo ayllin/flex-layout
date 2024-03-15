@@ -1,0 +1,36 @@
+main {
+    flex-grow: 1;
+    background-color: #f7f6f9;
+  }
+  
+  main {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main .topControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .topControls i:hover {
+    color: gray;
+  }
+  main .listingControls {
+    display: flex;
+    gap: 8px;
+  }
+  
+  main .customSelect {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  
+  main .daysControls {
+    all: unset;
+    font-family: sans-serif;
+  }
+  
