@@ -12,6 +12,12 @@
     border-radius: 12px;
     padding: 16px;
   }
+  .card .fa-chevrons-up{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #4b044b70;
+  }
   .card .fa-twitter {
     color: #1da1f2;
     font-size: 32px;
@@ -25,7 +31,14 @@
     font-weight: bold;
     margin-top: 12px;
   }
-  
+  .card .fa-facebook{
+    color:rgb(33, 33, 182);
+    font-size: 32px;
+  }
+  .card .fa-youtube{
+    color: rgb(158, 6, 6);
+    font-size: 32px;
+  }  
   .card .subtitle {
     font-size: 12px;
     color: gray;
